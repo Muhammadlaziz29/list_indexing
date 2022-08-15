@@ -6,4 +6,14 @@
     Returns:
         list: return answer
 */
-void main() {}
+List func(List<int> list1) {
+    List m = [];
+    m.add(list1.last); 
+  return m;
+}
+
+
+void main() {
+  print(func([1, 2, 3]));
+}
+

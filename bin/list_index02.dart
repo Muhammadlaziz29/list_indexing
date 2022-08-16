@@ -8,11 +8,7 @@
 */
 
 int func(List list1) {
- 
-  
-  List t = [];
-  t.addlist1[0];
-   return t;
+ return list1[0];
 }
 
 

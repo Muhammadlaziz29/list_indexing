@@ -6,7 +6,7 @@
     Returns:
         list: return answer
 */
-List func(List<int> list1) {
+List func(List list1) {
     List m = [];
     m.add(list1.last); 
   return m;
@@ -14,6 +14,6 @@ List func(List<int> list1) {
 
 
 void main() {
-  print(func([1, 2, 4]));
+  print(func([1,2,3,4,5]));
 }
 

@@ -8,9 +8,9 @@
 */
 
 List func(List list) {
-    return [];
+    return list;
 }
 
 void main() {
-    print(func());
+    print(func([]));
 }

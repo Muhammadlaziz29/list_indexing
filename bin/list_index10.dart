@@ -6,4 +6,21 @@
     Returns:
         list: return answer
 */
-void main() {}
+int func(List list_num) {
+    int a = 0;
+    int b = 0;
+    while (a<list_num.length) {
+        if (list_num.first > list_num.last) {
+            b = list_num.first;
+        }
+        else if (list_num.first < list_num.last) {
+            b = list_num.last;
+        }
+        a++;
+    }
+    return b;
+}
+
+void main() {
+    print(func([9,2,3,4,5]));
+}
